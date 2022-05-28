@@ -1,0 +1,26 @@
+<div class="container" style="margin-top:20px;">
+    <table>  
+        <th>Available customer details: </th></table>
+       
+        
+           <table border="2" [cellPadding]="10" >
+        <tr>
+            <th>serviceid</th>
+            <th>serviceauthusername</th>
+            <th>serviceauthlogin</th>
+            <th>serviceauthpassword</th>
+            <th>serviceauthforgotpassworrd</th>
+            <th>serviceauthresetpassword</th>
+        </tr>
+        <tr *ngFor="let item of serviceauthentications">
+            <td>{{item.serviceid}} </td>
+            <td>{{item.serviceauthusername}}</td>
+            <td>{{item.serviceauthlogin}}</td>
+            <td>{{item.serviceauthpassword}}</td>
+            <td>{{item.serviceauthforgotpassword}}</td>
+            <td>{{item.serviceauthresetpassword}}</td>
+             <!-- <td> <button (click)="Delete(item.serviceid)">Delete</button></td> -->
+        </tr>
+    </table>
+</div>
+
