@@ -17,7 +17,7 @@ item:Customer
   }
   Delete()
   {
-    this.customerService.DeleteCustomer(this.item.customerid).subscribe(data=>
+    this.customerService.DeleteCustomer(this.item.customerId).subscribe(data=>
       {
         console.log(data);
       })

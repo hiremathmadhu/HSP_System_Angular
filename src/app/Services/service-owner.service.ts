@@ -5,12 +5,15 @@ import { ServiceOwner } from '../Models/service-owner';
 @Injectable({
   providedIn: 'root'
 })
+
 export class ServiceOwnerSerivce {
-  GetServiceOwnerById(id: number) {
-    throw new Error('Method not implemented.');
-  }
-api_path:string='https://localhost:44396/api/ServiceOwner';
+  api_path:string='https://localhost:44396/api/ServiceOwner';
   constructor(private http:HttpClient) { }
+
+  GetServiceOwnerById(id: number) {
+    // throw new Error('Method not implemented.');
+    return this.http.get<ServiceOwner>(this.api_path+'/GetOwnerById/'+id);
+    }
 
 GetAllServiceOwners():Observable<ServiceOwner[]>
 {

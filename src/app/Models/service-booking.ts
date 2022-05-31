@@ -1,8 +1,8 @@
 export class ServiceBooking {
     public serviceid:number;
-    public serviceitemnum:number;
-    public servicebookingaddress:string;
-    public servicebookingdate:Date;
-    public servicecontactnum:number;
-    public servicepaymenttype:string;
+    public serviceItemnum:number;
+    public serviceBookingaddress:string;
+    public serviceBookingdate:Date;
+    public serviceContactnum:number;
+    public servicePaymenttype:string;
 }

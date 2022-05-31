@@ -11,7 +11,7 @@ api_path:string='https://localhost:44396/api/ServiceBooking';
 
 GetAllServiceBookings():Observable<ServiceBooking[]>
 {
-return this.http.get<ServiceBooking[]>(this.api_path+'/GetAllServiceBookings');
+return this.http.get<ServiceBooking[]>(this.api_path+'/GetAllServiceBooking');
 }
 GetServiceBookingById(id:number):Observable<ServiceBooking>
 {

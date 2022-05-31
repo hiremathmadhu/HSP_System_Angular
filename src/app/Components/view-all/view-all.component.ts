@@ -7,6 +7,7 @@ import { CustomerService } from 'src/app/Services/customer.service';
   templateUrl: './view-all.component.html',
   styleUrls: ['./view-all.component.css']
 })
+
 export class ViewAllComponent implements OnInit {
 customers:Customer[];
   constructor(private customerService:CustomerService) { 

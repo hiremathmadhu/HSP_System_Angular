@@ -5,7 +5,7 @@ import { ServiceOwnerSerivce } from 'src/app/Services/service-owner.service';
 
 @Component({
   selector: 'app-editserviceowner',
-  templateUrl: './editserviceowner.component.html',
+  templateUrl:'./editserviceowner.component.html',
   styleUrls: ['./editserviceowner.component.css']
 })
 export class EditserviceOwnerComponent implements OnInit {

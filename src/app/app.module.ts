@@ -34,7 +34,12 @@ import { ViewAllServiceownerComponent } from './Components/view-all-serviceowner
 import { EditserviceCategoryComponent } from './Components/editservicecategory/editservicecategory.component';
 import { EditserviceOwnerComponent } from './Components/editserviceowner/editserviceowner.component';
 import { SearchserviceautheticationComponent } from './Components/searchserviceauthetication/searchserviceauthetication.component';
-
+import { AdminComponent } from './Models/admin/admin.component';
+import { AddAdminComponent } from './Components/addadmin/addadmin.component';
+import { DeleteadminComponent } from './Components/deleteadmin/deleteadmin.component';
+import { EditadminComponent } from './Components/editadmin/editadmin.component';
+import { SearchadminComponent } from './Components/searchadmin/searchadmin.component';
+import { ViewalladminComponent } from './Components/viewalladmin/viewalladmin.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +70,12 @@ import { SearchserviceautheticationComponent } from './Components/searchservicea
     EditserviceCategoryComponent,
     EditserviceOwnerComponent,
     SearchserviceautheticationComponent,
-
+    AdminComponent,
+    AddAdminComponent,
+    DeleteadminComponent,
+    EditadminComponent,
+    SearchadminComponent,
+    ViewalladminComponent
   ],
   imports: [
     BrowserModule,

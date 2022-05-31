@@ -11,15 +11,20 @@
             <th>CustomerCity</th>
             <th>CustomerState</th>
             <th>CustomerZipcode</th>
+            <th>CustomerRating</th>
+            <th>CustomerReview</th>
         </tr>
+
         <tr *ngFor="let item of customers">
-            <td>{{item.customerid}} </td>
-            <td>{{item.customername}}</td>
+            <td>{{item.customerId}} </td>
+            <td>{{item.customerName}}</td>
             <td>{{item.address}}</td>
             <td>{{item.city}}</td>
             <td>{{item.state}}</td>
-            <td>{{item.zipcode}}</td>
-             <td> <button (click)="DeleteCustomer(item.customerid)">Delete</button></td>
+            <td>{{item.zipCode}}</td>
+            <td>{{item.customerRating}}</td>
+            <td>{{item.customerReview}}</td>
+             <td> <button (click)="DeleteCustomer(item.customerId)">Delete</button></td>
         </tr>
     </table>
 </div>

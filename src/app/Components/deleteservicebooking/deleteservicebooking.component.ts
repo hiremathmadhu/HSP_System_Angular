@@ -17,7 +17,7 @@ item:ServiceBooking
   ngOnInit(): void {
   }
   Delete(){
-    this.serviceBookingService.DeleteServiceBooking(this.item.serviceitemnum).subscribe(data=>
+    this.serviceBookingService.DeleteServiceBooking(this.item.serviceItemnum).subscribe(data=>
       {
         console.log(data);
       })

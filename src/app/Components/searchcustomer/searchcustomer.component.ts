@@ -17,7 +17,7 @@ item:Customer
   }
   Search()
   {
-    this.customerService.GetCustomerById(this.item.customerid).subscribe(data=>{
+    this.customerService.GetCustomerById(this.item.customerId).subscribe(data=>{
       this.item=data;
       })
       this.router.navigateByUrl('ViewAll');

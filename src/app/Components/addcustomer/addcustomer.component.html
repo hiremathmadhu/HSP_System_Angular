@@ -5,11 +5,11 @@
         <br>
                 <tr >
             <td>Id</td>
-            <td> <input type="number" name="" id="" [(ngModel)]="item.customerid"> </td>
+            <td> <input type="number" name="" id="" [(ngModel)]="item.customerId"> </td>
         </tr>
         <tr>
             <td>CustomerName</td>
-            <td> <input type="text" name="" id="" [(ngModel)]="item.customername"> </td>
+            <td> <input type="text" name="" id="" [(ngModel)]="item.customerName"> </td>
         </tr>
         <tr> 
             <td>address</td>
@@ -25,13 +25,20 @@
         </tr>
         <tr>
             <td>zipcode</td>
-            <td> <input type="text" name="" id="" [(ngModel)]="item.zipcode"> </td>
+            <td> <input type="text" name="" id="" [(ngModel)]="item.zipCode"> </td>
+        </tr>
+        <tr>
+            <td>CustomerRating</td>
+            <td> <input type="text" name="" id="" [(ngModel)]="item.customerRating"> </td>
+        </tr>
+        <tr>
+            <td>CutomerReview</td>
+            <td><input type="text" name="" id="" [(ngModel)]="item.customerReview"></td>
         </tr>
         <tr>
             <td colspan="2">
                 <button on-click="Save()">Save</button>     
-            
-            
+            </td>      
         </tr>
     </table>
 </div>
