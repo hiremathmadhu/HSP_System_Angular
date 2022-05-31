@@ -1,0 +1,19 @@
+CREATE TABLE SERVICE_CATEGORIES
+(
+SERVICEID INT PRIMARY KEY,
+SERVICEMAIL VARCHAR(25),
+SERVICETYPE VARCHAR(25) NOT NULL,
+SERVICECONTACTNUM VARCHAR(25),
+SERVICE_ADDRESS VARCHAR(125));
+
+insert into SERVICE_CATEGORIES values(1,'niya@gmail.com','gardening','663525871','MAJESTIC');
+
+insert into SERVICE_CATEGORIES values(2,'xyz@gmail.com','carpenting','685957452','DOLLARSCOLONY');
+
+insert into SERVICE_CATEGORIES values(3,'dinga@gmail.com','plumbering','9638527415','KRPURAM');
+insert into SERVICE_CATEGORIES values(4,'abc@gmail.com','gardening','7896543215','KBCOLONY');
+select * from SERVICE_CATEGORIES
+
+
+
+
