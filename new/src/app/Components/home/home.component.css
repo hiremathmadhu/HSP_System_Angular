@@ -1,0 +1,24 @@
+.left {
+    float: left;
+    padding: 0 20px 20px 0;
+    width: 500px;
+}
+
+.right {
+    float: right;
+    padding: 0 20px 20px 0;
+    width: 340px;
+}
+
+.img{
+    height: 25%;
+    width: 60%;
+}
+
+/*.bg-img{
+    background-image: url("https://hbsontime.com/wp-content/uploads/2016/03/HBS-5403764624-Fredericksburg-Move-In-Ready-Home-Services-1.jpg");
+   filter: blur(2px);
+    background-position: center;
+    background-size: contain ;
+    background-repeat: no-repeat;
+}*/

@@ -1,0 +1,47 @@
+<div>
+<table>
+    <th>Enter Id to search</th>
+     <tr>
+        <td>ServiceBookingID</td>
+        <td>
+            <input type="number" name="" id="" [(ngModel)]="item.serviceid">
+        </td>
+    </tr>
+       <tr>
+        <td>ServiceBookingItemNum</td>
+        <td>
+            <input type="number" name="" id="" [(ngModel)]="item.serviceItemnum">
+        </td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td>
+            <input type="text" name="" id="" [(ngModel)]="item.serviceBookingaddress">
+        </td>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>
+            <input type="number" name="" id="" [(ngModel)]="item.serviceBookingdate">
+        </td>
+    </tr>
+    
+<tr>
+        <td>ServiceBookingContactNum</td>
+        <td>
+            <input type="number" name="" id="" [(ngModel)]="item.serviceContactnum">
+        </td>
+    </tr>
+<tr>
+        <td>ServiceBookingPayment</td>
+        <td>
+            <input type="number" name="" id="" [(ngModel)]="item.servicePaymenttype">
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan=1></td>
+        <button on-click="Search()">Search</button>
+    </tr>
+</table>
+</div>

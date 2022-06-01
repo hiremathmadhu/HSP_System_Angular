@@ -1,0 +1,44 @@
+<div class="container" style="margin-top:20px">
+    <table border="1">
+        <th>Enter below details to add Customer:</th>
+        <br>
+        <br>
+                <tr >
+            <td>Id</td>
+            <td> <input type="number" name="" id="" [(ngModel)]="item.customerId"> </td>
+        </tr>
+        <tr>
+            <td>CustomerName</td>
+            <td> <input type="text" name="" id="" [(ngModel)]="item.customerName"> </td>
+        </tr>
+        <tr> 
+            <td>address</td>
+            <td> <input type="text" name="" id="" [(ngModel)]="item.address"> </td>
+        </tr>
+        <tr>
+            <td>city</td>
+            <td> <input type="text" name="" id="" [(ngModel)]="item.city"> </td>
+        </tr>
+        <tr>
+            <td>state</td>
+            <td> <input type="text" name="" id="" [(ngModel)]="item.state"> </td>
+        </tr>
+        <tr>
+            <td>zipcode</td>
+            <td> <input type="text" name="" id="" [(ngModel)]="item.zipCode"> </td>
+        </tr>
+        <tr>
+            <td>CustomerRating</td>
+            <td> <input type="text" name="" id="" [(ngModel)]="item.customerRating"> </td>
+        </tr>
+        <tr>
+            <td>CutomerReview</td>
+            <td><input type="text" name="" id="" [(ngModel)]="item.customerReview"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button on-click="Save()">Save</button>     
+            </td>      
+        </tr>
+    </table>
+</div>
